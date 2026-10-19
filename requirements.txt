@@ -1,0 +1,17 @@
+# Astrixcore AX-1 Project Dependencies
+
+# Python dependencies for reference model and tests
+numpy>=1.24.0           # Array operations, INT8 arithmetic
+pytest>=7.4.0           # Test framework
+pyverilog>=3.0          # Verilog parsing/analysis (if needed)
+cocotb>=1.8             # Python-embedded RTL co-simulation
+
+# Development tools (system-level)
+# - Yosys for synthesis (open-source)
+# - NextPNR for place-and-route (open-source)
+# - GTKWave for VCD viewing
+# - Python 3.9+
+
+# Optional: ONNX processing
+# onnx>=1.14.0          # Neural network model import
+# onnxruntime>=1.15.0   # Inference acceleration

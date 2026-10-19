@@ -1,0 +1,42 @@
+# Dependencies
+*.egg-info/
+.env
+.env.local
+.venv
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# FPGA / synthesis
+*.json
+*.xml
+*_opt*
+*_impl*
+*_bitstream*
+*.pad
+*.pcf
+*.routed
+
+# Simulation
+*.vcd
+*.ltf
+*.aux
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
